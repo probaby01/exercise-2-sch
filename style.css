@@ -1,142 +1,96 @@
-body{
-    font-family: Arial, sans-serif;
-margin: 0;
-padding: 0;
-background-color: #white;
+body {
+  background-color: grey;
+  padding: 0px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
-.container{
-    max-width: 800px;
-    margin: 50px;auto;
-    padding:20px;
-    background-color: lightgrey;/*white*/
-    border-radius: 8px;
+.baby {
+  background-color: white;
+  width: 100%;
+  padding: 10px
+  height: 200%;
+  border: 10px, solid, white;
+  display:block;
 }
 
-h1{
-font-size: 48px;
-font-weight: bold;
-margin-bottom: 50px;
+h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+  padding: 100px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-left: 250px;
 }
 
-.subtitle{
-font-size: 24px;
-padding-top:20px
+.subtitle {
+  font-size:19px;
+
+  position: relative;
+  display:inline-block;
+  width: 450px;
+  margin-bottom: 40px;
+  padding-top: 10px;
+  padding-left: 250px;
+
+  span {
+    color: rgba(20, 133, 20, 0.821);
+    font-weight: 600;
+  }
 }
 
-.subtitle span{
-    color:rgb(21, 118, 21);
-    font-weight: bold;
+.tagline {
+  font-size: 19px;
+  margin-bottom: 50px;
+  padding-bottom:30px;
+  padding-left: 250px;
+  padding-right: 250px;
+  position: relative;
+  bottom: 40px;;
+  display:block;
+  width: 350px
 }
 
-.tagline{
-font-size: 25px;
-color:black;
-margin-bottom: 20px;
+.baby-2 {
+  background-color: white;
+  margin: 200px;
+  margin-top: 50px;
+  padding: 5px;
+  padding-top: 5px;
+  display: block;
+  padding: bottom 50px;
+  padding-left: 20px;
+  font-size: 15px;
+  inline-size: 700px;
+  font-size: 19px;
 }
 
-.highlight-box{
-    background-color:#fff;
-    border-bottom:8px solid grey;
-    padding: 20px;
-    padding-top:50px;/*already set to avoid overlap with h2*/
-    border-radius: 1px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    position: relative;/*to allow absolute positioning of h2*/ 
+h2 {
+  background-color: rgb(255, 194, 61);
+  font-size: 25px;
+  display: block;
+  font-weight: 700px;
+  padding: 16px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  position: relative;
+  bottom: 20px;
+  right: 25px;
+  margin-right: 300px;
+  border: 5px solid rgb(197, 148, 43);
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  box-shadow: 100px;
+  border-radius: 1px, 5px, 5px, 5px;
+  border-color: ;
 }
 
-h2{
-font-size: 28px;
-font-weight: bold;
-margin: 0;
-background-color:#f0ac1a;
-padding:10px;
-position:absolute;
-left: -0.5px;
-top: 10px;
-border-bottom: 8px solid hsl(49, 82%, 37%);
-width: auto; /*to avoid overlap with h2*/
-}
+.pro {
+    padding:0px;
+    padding-top: 70px;
 
-.highlight-box p{
-    margin-top: 30px;/*to avoid overlap with h2*/
-    font-size: 16px;
-    line-height:1.6;
-    color: black;
-    margin-bottom: 15px;
-}
-/* Media Queries for Different Devices */
-
-/* Tablets (screen width <= 768px) */
-@media (max-width: 768px) {
-    .container {
-        max-width: 95%;
-        margin: 15px auto;
-        padding: 10px;
-    }
-
-    h1 {
-        font-size: 2rem;
-    }
-
-    .subtitle {
-        font-size: 1.25rem;
-    }
-
-    .tagline {
-        font-size: 1.1rem;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-        padding: 6px;
-    }
-
-    .highlight-box {
-        padding: 10px;
-        padding-top: 50px;
-    }
-
-    .highlight-box p {
-        font-size: 0.95rem;
-    }
-}
-
-/* Phones (screen width <= 480px) */
-@media (max-width: 480px) {
-    .container {
-        max-width: 100%;
-        margin: 10px;
-        padding: 8px;
-    }
-
-    h1 {
-        font-size: 1.5rem;
-    }
-
-    .subtitle {
-        font-size: 1rem;
-        padding-top: 10px;
-    }
-
-    .tagline {
-        font-size: 0.9rem;
-    }
-
-    h2 {
-        font-size: 1.25rem;
-        padding: 5px;
-        top: 5px;
-    }
-
-    .highlight-box {
-        padding: 8px;
-        padding-top: 40px;
-        border-bottom: 5px solid grey; /* Thinner border for small screens */
-    }
-
-    .highlight-box p {
-        font-size: 0.85rem;
-        margin-top: 15px;
-    }
 }
